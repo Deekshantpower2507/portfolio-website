@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRANSITIONS</title>
+    <style>
+        .container{
+            width: 50vw;
+            height: 60vh;
+            background-color: aqua;
+        }
+        .box{
+            width: 13vw;
+            height: 15vh;
+            background-color: chocolate;
+            transform:translateX(45px) translateY(35px);
+            transition-property: transform;
+            transition-duration: 2s;
+            transition-timing-function: ease-in-out;
+            transition-delay: 1s;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box"></div>
+    </div>
+</body>
+</html>
